@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather App</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/weathericons.css" />
+	<link rel="stylesheet" href="css/style.css" />
+  </head>
+<!---------------------------------------------------------------------------------------------->
+  <body>
+	  <center><table>
+		  	<thead>
+				<tr>
+					<th>Sélectionner votre ville</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="centrer">
+							<select id="select-cities"></select>
+						</div>
+					</th>	
+				</tr>
+
+				<tr>
+					<th>
+						<div class="loader hide"></div>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="actual">
+							<div class="actual-temp"></div>
+							<div class="actual-icon"></div>
+							<div class="actual-weather"></div>
+						</div>
+					</th>
+				</tr>
+		
+				<tr>
+					<div class="prevision-weather"></div>
+				</tr>
+			</thead>
+		</table></center>
+	</body>
+<!---------------------------------------------------------------------------------------------->
+
+	<script src="script.js"></script>
+</html>
